@@ -1,6 +1,6 @@
 # 💬 Chat Server - TCP/IP Messaging Application
 
-A **multi-client chat application** in Python using TCP sockets, **TLS/SSL encryption**, and multithreading. The server handles multiple clients simultaneously with password authentication and real-time message broadcasting.
+A **multi-client chat application** in Python using TCP sockets, **TLS encryption**, and multithreading. The server handles multiple clients simultaneously with password authentication and real-time message broadcasting.
 
 ---
 
