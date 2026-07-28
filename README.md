@@ -28,7 +28,7 @@ A **multi-client chat application** in Python using TCP sockets, **TLS encryptio
 
 ## 🖼️ Project Overview
 
-This project implements a **centralized chat server** where multiple clients can connect, authenticate with a shared password, and exchange text messages in real time. All communications are **encrypted via TLS**. Each message sent by a client is broadcast to **all other connected clients** (not back to the sender).
+This project implements a **centralized chat server** where multiple clients can connect, authenticate with a shared password, and exchange text messages in real time. All communications are **encrypted with TLS**. Each message sent by a client is broadcast to **all other connected clients** (not back to the sender).
 
 ---
 
@@ -68,7 +68,7 @@ Chat_project/
 | 🧹 **Automatic Cleanup** | Disconnected clients are automatically removed |
 | 👤 **Usernames** | Each client chooses a username that prefixes their messages |
 | 🔄 **Auto-reconnect** | The client attempts to reconnect if the server is unavailable |
-| 🔐 **TLS/SSL Encryption** | Network communications between clients and server are encrypted with TLS |
+| 🔐 **TLS Encryption** | Network communications between clients and server are encrypted with TLS |
 | 🔑 **Automatic Certificate Generation** | `generate_cert.py` script creates and distributes certificates |
 | ⌨️ **Enhanced CLI Interface** | Uses `prompt_toolkit` for a better input experience |
 
@@ -284,7 +284,7 @@ Waiting for connection on: 0.0.0.0 32000
 ```
 
 - The server listens on **all interfaces** (`0.0.0.0`) on **port 32000**
-- It uses TLS/SSL to encrypt incoming connections
+- It uses TLS to encrypt incoming connections
 - It waits for client connections
 - The maximum number of clients is set by `MAX_CLIENT = 10` in `chat_server.py`. You can modify this value to allow more or fewer simultaneous connections.
 
@@ -555,7 +555,7 @@ Function **`cleanup(dead_clients, client_list, lock)`**:
 
 # 🚀 Possible Improvements
 
-- [x] **TLS/SSL Encryption** — Secure communications ✅
+- [x] **TLS Encryption** — Secure communications ✅
 - [ ] **Chat rooms** — Separate rooms (public, password-protected private)
 - [ ] **Graphical User Interface (GUI)** — Desktop app with Tkinter or PyQt
 - [ ] **Web interface** — Web version with WebSockets
