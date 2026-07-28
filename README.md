@@ -28,7 +28,7 @@ A **multi-client chat application** in Python using TCP sockets, **TLS encryptio
 
 ## 🖼️ Project Overview
 
-This project implements a **centralized chat server** where multiple clients can connect, authenticate with a shared password, and exchange text messages in real time. All communications are **encrypted via TLS/SSL**. Each message sent by a client is broadcast to **all other connected clients** (not back to the sender).
+This project implements a **centralized chat server** where multiple clients can connect, authenticate with a shared password, and exchange text messages in real time. All communications are **encrypted via TLS**. Each message sent by a client is broadcast to **all other connected clients** (not back to the sender).
 
 ---
 
