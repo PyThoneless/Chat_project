@@ -84,7 +84,7 @@ Chat_project/
 ### Python Dependencies
 
 ```bash
-pip install prompt_toolkit
+pip install -r requirements.txt
 ```
 
 > 💡 **On Linux/macOS**, use `pip3` instead.
