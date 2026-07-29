@@ -351,7 +351,7 @@ pyinstaller --version
 Navigate to the folder containing `chat_client.py` and `client_cert/`, then run:
 
 ```bash
-pyinstaller --onefile --add-data "client_cert;client_cert" chat_client.py
+pyinstaller --onefile --add-data "client_cert\server.crt;client_cert" chat_client.py
 ```
 
 Explanation of options:
